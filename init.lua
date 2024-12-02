@@ -863,10 +863,6 @@ require('lazy').setup({
     init = function()
       vim.cmd.colorscheme 'monokai-pro'
     end,
-
-    config = function()
-      require('monokai-pro').setup()
-    end,
   },
 
   -- Highlight todo, notes, etc in comments
